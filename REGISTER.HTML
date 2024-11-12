@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <rel href="./HOME.HTML">
+     <link type="text/css"  href="backend.css" rel="stylesheet" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="input_informtions" id="input_informations">
+        <div class="whole_option_divs">
+            <div class="sub_info">
+                <h2 class="sellectos">provide your choices by sellecting your optons bellow</h2>
+                <input type="checkbox" name="checks" value="values" >
+                <label >book for hotel resavations</label><br>
+                <input type="checkbox" name="chec" value="values">
+                <label>book for events</label><br>
+                <input type="checkbox"name="check" value="values" >
+                <label>book for wedding</label><br>
+                <input type="checkbox"name="checking" value="values" >
+                <label>book for one week</label><br>
+                <input type="checkbox" name="chek" value="values">
+                <label>book for one day</label><br><br>
+            </div>
+            <div class="button_div all_inputs">
+                <h2 class="sellectos">sellect your choices bellow</h2>
+                <input class="radio" name="check" cattegory="hotel">
+                <label  for="hotel"  >book for hotel resavations</label><br>
+                <input class="radio" type="radio" name="check" cattegory="hotel">
+                <label class="label"  for="book" >book for events</label><br>
+                <input class="radio" type="radio" name="check" cattegory="hotel" >
+                <label for="wedding" >book for wedding</label><br>
+                <input class="radio" type="radio" name="check" cattegory="hotel">
+                <label for="week"  >book for one week</label><br>
+                <input class="radio" type="radio" name="check" cattegory="hotel"> 
+                <label for="week"  >book for one week</label><br><br>
+            </div>
+            <div class="legend">
+                <div class="textbuttons" id="textbuttons">
+                    <h2>please provide your name bellow</h2>
+                    <legend>
+                        <fieldset>
+                            <label class=""  for="first_name"  > First Name</label>
+                            <input type="text"><br><br>
+                            <label class="Last_name" for="last_name"  >Last Name</label>
+                            <input type="text"><br><br>
+                            <label class="age" for="age"  >Age</label>
+                            <input type="text"><br><br>
+                            <label  for="email">Email</label>
+                            <input type="text"><br><br>
+                            <label  for="wesite"  >Website</label>  
+                            <input type="text"><br><br>
+                        </fieldset>
+                    </legend>
+                  
+                </div>
+
+            </div>
+           
+            <div class="comments">
+                <label for="comment">drope your comments here</label>
+                <input type="">
+            </div>
+
+        </div><br>
+        <div class="options" id="options">
+            <p>MAK EYOUR SELECTION BELLOW:</p>
+
+            <input list="foods">
+            <datalist id="foods">
+                <option value="CAKE">CAKE</option>
+                <option value="BANANA CAKE" selected >BANANA CACK</option>
+                <option value="VANILA CAKE"> VANILA CAKE</option>
+                <option value="ORANGE CAKE">ORANGE CAKE</option>
+                <option value="MANGO CAKE"> MANGOCAKE</option>
+                <option value="APPLE CAKE"> APPLE CAKE</option>
+                <option value="GRABE CAKE"> GRABES CAKE</option>
+                <option value="BLACK BERRY CAKE"> BLACK BERRY CAKE</option>
+            </datalist>
+        </div><br><br>
+       <form action="/HOME.HTML"mothode="POST">
+        <div class="textarea">
+            <p> you can make any prefered choice in the comment section bellow</p>
+            <div> <textarea name="" id="" cols="30" rows="10"></textarea></div>
+            <br>
+            <button>
+                submit
+            </button>
+      </div>
+       </form>
+       <br><br>
+    </div>
+
+   
+
+
+</body>
+</html>
